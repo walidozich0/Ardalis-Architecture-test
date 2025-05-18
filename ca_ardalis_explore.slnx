@@ -1,0 +1,20 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="CleanArchitecture.nuspec" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">    
+	<Project Path="src/ca_ardalis_explore.SharedKernel/ca_ardalis_explore.SharedKernel.csproj" />
+    <Project Path="src/ca_ardalis_explore.Core/ca_ardalis_explore.Core.csproj" />
+    <Project Path="src/ca_ardalis_explore.Infrastructure/ca_ardalis_explore.Infrastructure.csproj" />    
+    <Project Path="src/ca_ardalis_explore.Application/ca_ardalis_explore.Application.csproj" />
+    <Project Path="src/ca_ardalis_explore.Api/ca_ardalis_explore.Api.csproj" />
+  </Folder>
+</Solution>
